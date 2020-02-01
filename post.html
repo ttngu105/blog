@@ -6,10 +6,25 @@
         <link href="blog.css" rel="stylesheet" type="text/css" href="text/css">
     </head>
     <body>
-        <nav id = "navbar">
-            <ul class ="bg-dark">
-                <li class = 'nav-item'> <a href='#'> Home </a> </li>
+        <nav id="topbar" class = "navbar navbar-dark bg-dark">
+            <a href="#section-home"><strong><font color = "white">Thien Tommy Nguyen's Portfolio</font></strong></a>
+            <button class = "navbar-toggler" type = "button" data-toggle = "collaspe" data-target = "#navbarSupported" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="collaspe navbar-collaspe"></span> 
+            <div class ="collaspe navbar-collaspe" id ="navbarSupportedContent">
+            <ul class = "navbar-nav mr-auto">
+        <li class="nav-item active">
+             <a class="nav-link" href="#section-home">Home <span class="sr-only">(current)</span></a>
+         </li>
+            <a class="nav-link dropdown-toggle"aria-expanded ="false" aria-haspopup="true" id="navbarDropdown" href ="#" id="navbarDropdown" role="button" data-toggle="dropdown" >Dropdown</a>
+        <div class="dropdown-menu bg bg-dark" aria-labelledby="navbarDropdown"> 
+            <li><a class="dropdown-item bg-dark" href="#section-about"color =><font color = "white">About</font></a>    </li>   
+            <li><a class="dropdown-item bg-dark"  href="#section-projects"><font color = "white">Projects</font></a></li>
+            <li><a class="dropdown-item bg-dark" href="https://ttngu105.github.io/blog/"><font color = "white">Blog</font></a>  </li>
+            <li><a class="dropdown-item bg-dark" href="#section-contact"><font color = "white">Contact</font></a>       </li>
             </ul>
+            </div>
+            </button>
+        </div>
         </nav>
         <h1 class = "title"> Each Blog Post Needs a Main Title Statement</h1>
 
