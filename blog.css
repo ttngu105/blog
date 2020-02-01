@@ -46,8 +46,8 @@ body{
 }
 
 ul{
-	list-style-type: 	circle;	
 	padding:20px;
+	text-align: center;
 }
 ul li{
 	margin: 5px;
