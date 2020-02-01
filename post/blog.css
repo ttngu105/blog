@@ -1,0 +1,122 @@
+body{
+	background-color: rgb(180,180,180);
+}
+.bg-white{
+	background-color: white;
+}
+.bg-green{
+	background-color: green;
+}
+.bg-red{
+	background-color: red;
+}
+.bg-blue{
+	background-color: blue;
+}
+.bg-yellow{
+	background-color: yellow;
+}
+.bg-dark{
+	background-color: black;
+	color: white;
+}
+.text-red{
+	color: red;
+}
+.text-blue{
+	color: blue;
+}
+.text-green{
+	color: green;
+}
+.outline{
+	outline-width: 2px;
+	outline-style: solid;
+	padding: 5px;
+}
+.img-fluid{
+	max-width: 100%;
+	max-height: 100%;
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	display: 	block;	
+}
+
+ul{
+	padding:20px;
+	text-align: center;
+}
+ul li{
+	margin: 5px;
+	text-align: center;
+}
+#overview{
+	text-align: 	center;
+	padding-top: 	1em;
+}
+hr{
+	border: 	3px solid	#999;
+	border-radius: 5px;
+}
+.thumbnail{
+	float: 	left;
+	border: 1px solid #add;/*gray border*/
+	border-radius: 	4px; /*rounded border*/
+	padding: 4px;/*somepadding*/
+	width:150px;/*Set a small width*/
+	margin-right: 	10px;
+
+}
+#my-name{
+	text-shadow: 	2px 2px #ffffff;
+	color: magenta;
+	font-size: x-large;	
+}
+.container{
+	width:80%;
+	margin: auto;
+}
+#navbar{
+	display: block;	
+	text-align: right;
+	position: 	fixed;
+	top: -1em;
+	width: 	100%;	 	
+}
+body{
+	background-color: rgb(180,180,180);
+	padding: 0;
+	padding: 0;
+}
+.nav-item{
+	all: unset;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 	bold;
+}
+a:hover{
+	color: 	red;
+}
+h3{
+	font-family: "Bangers",cursive;
+}
+.title{
+	font-family: "Bangers", cursive;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 1em;
+}
+.subtitle{
+	color: gray;
+	font-style: italic;
+	text-align: center;
+	display: block;
+	font-family: "Caveat", cursive;
+	font-size: 24px;
+}
