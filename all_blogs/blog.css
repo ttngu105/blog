@@ -1,6 +1,12 @@
 body{
 	background-color: rgb(180,180,180);
 }
+h3{
+	color:white;
+}
+#text{
+	color:white;
+}
 .bg-white{
 	background-color: white;
 }
